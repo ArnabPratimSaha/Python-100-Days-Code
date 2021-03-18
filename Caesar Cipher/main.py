@@ -9,7 +9,6 @@ def caesar_cipher():
     print(art.logo)
     print("\n\nWELCOME TO THE CAESAR CIPHER")
 
-
     choice = 'y'
 
     while choice == 'y':
