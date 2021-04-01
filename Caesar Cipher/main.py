@@ -9,7 +9,7 @@ def caesar_cipher():
     print(art.logo)
     print("\n\nWELCOME TO THE CAESAR CIPHER")
 
-    choice = 'y'
+    # choice = 'y'
 
     while choice == 'y':
         direction = input("\n\n*\t'E' for ENCODE\n*\t'D' for DECODE\nProvide your choice: ").lower()
