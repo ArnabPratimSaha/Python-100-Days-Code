@@ -53,7 +53,8 @@ def guessing_game():
     else:
         print("OOPS!🤭 Something went wrong\n")
         return
-
+    
+    print("\nThink of a number between 1 and 100")
     while lives:
         chosen_number = int(input("\nEnter your guess: "))
         lives -= 1
